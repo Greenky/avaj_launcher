@@ -3,6 +3,7 @@ Basic Java project about making flight simulation
 
 ## Usage
 ```javac Main.java```
+
 ```java Main [scenario file]```
 
 ## Rules for scenario file
