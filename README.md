@@ -1,11 +1,11 @@
 # avaj_launcher
 Basic Java project about making flight simulation
 
-h2 Usage
+## Usage
 ```javac Main.java```
 ```java Main [scenario file]```
 
-h2 Rules for scenario file
+## Rules for scenario file
 The first line of the file contains a *positive integer number*. This number represents the
 number of times the simulation is run. In our case, this will be the number of times a
 weather change is triggered.
@@ -14,10 +14,10 @@ format: ```TYPE NAME LONGITUDE LATITUDE HEIGHT```.
 ```LONGITUDE LATITUDE``` also must be *positive integer numbers* and ```HEIGHT``` must be in range from 1 to 100.
 Each 3 dimensional point has its own weather such as **RAIN** **FOG** **SUN** or **SNOW**
 
-h2 Aircraft Types
-**JetPlane**
-**Helicopter**
-**Baloon**
+## Aircraft Types
+* **JetPlane**
+* **Helicopter**
+* **Baloon**
 
 <hr>
 
